@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ruben Taylor - CV</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #d0dbe8;
+    }
+
+    .download-btn {
+      margin-top: 20px;
+    }
+
+    .download-btn button {
+      background-color: #0074d9;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn button:hover {
+      background-color: #005fa3;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #004080;
+      border-bottom: 2px solid #d9e2ec;
+      padding-bottom: 5px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section p {
+      line-height: 1.6;
+    }
+
+    .experience, .project {
+      margin-bottom: 15px;
+    }
+
+    .title {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .subtitle {
+      color: #777;
+      font-size: 14px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+      bottom: 0;
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact span {
+      margin-bottom: 5px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      .container {
+        margin: 20px;
+        padding: 15px;
+      }
+    }
+
+    @media print {
+      .download-btn {
+        display: none !important;
+      }
+
+      body {
+        background-color: white;
+      }
+
+      .container {
+        box-shadow: none;
+        margin: 0;
+        border-radius: 0;
+      }
+
+      header {
+        background-color: #004080 !important;
+        color: white !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      header p {
+        color: #d0dbe8 !important;
+      }
+
+      .page-break {
+      page-break-before: always;
+      }
+
+      footer {
+      display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ruben Taylor</h1>
+    <p>B.Eng (Industrial) | Energy Partners | Asset Management | Junior Systems Engineer</p>
+    <div class="download-btn">
+      <button onclick="window.print()">Download My CV (PDF)</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm Ruben Taylor, an Industrial Engineer who thrives on tackling tasks efficiently and enjoys bringing clarity to complex challenges. 
+        Although my natural preference is task-oriented, I'm adaptable and can easily shift my approach to fit the needs of the team or situation. 
+        My background in team sports and leadership roles has taught me the value of balancing results with strong interpersonal connections. 
+        Outside of work, I love spending time outdoors—whether it's playing social golf or listening to some music around a fire.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Jobs</h2>
+      <ul class="experience">
+        <li class="title">Junior Systems Engineer</li>
+        <div class="subtitle">Energy Partners | Asset Management | September 2024 – Present</div>
+      </ul>
+      <ul class="experience">
+        <li class="title">Industrial Engineer in Training</li>
+        <div class="subtitle">Energy Partners | Refrigeration | January 2024 – August 2024</div>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Project-Based Experience</h2>
+      <ul class="experience">
+    
+        <li>
+          <div class="title">Power BI Pipeline with Git Integration</div>
+          <div class="subtitle">Junior Systems Engineer | Energy Partners – Asset Management | January 2025 – February 2025</div>
+          <p>
+            Built a Power BI development pipeline integrated with Git and Azure DevOps to support collaboration, version control, and structured dashboard deployment.
+          </p>
+          <p><strong>Tools:</strong> Power BI, Azure DevOps, Git</p>
+        </li>
+        <div class="page-break"></div>
+        <li>
+          <div class="title">API Integration for External Data Sources</div>
+          <div class="subtitle">Junior Systems Engineer | Energy Partners – Asset Management | September 2024 – Present</div>
+          <p>
+            Developed and maintained APIs to extract and ingest data from third-party systems into internal databases (Big Query or MySQL). Supported automation and real-time analytics.
+          </p>
+          <p><strong>Tools:</strong> Python, Node-RED, JavaScript, Task Scheduler, Google BigQuery, MySQL</p>
+        </li>
+    
+        <li>
+          <div class="title">Refrigeration Reporting Backend Standard</div>
+          <div class="subtitle">Junior Systems Engineer | Energy Partners – Asset Management | December 2024 – January 2025</div>
+          <p>
+            Standardized the backend infrastructure for all refrigeration reporting to ensure consistency and scalability.
+          </p>
+          <p><strong>Tools:</strong> Google BigQuery</p>
+        </li>
+    
+        <li>
+          <div class="title">Client-Facing Power BI Dashboards</div>
+          <div class="subtitle">Junior Systems Engineer | Energy Partners – Asset Management | Sept 2024 – Present</div>
+          <p>
+            Developed custom Power BI dashboards for various clients, delivering insights tailored to performance and energy KPIs.
+          </p>
+          <p><strong>Tools:</strong> Power BI</p>
+        </li>
+    
+        <li>
+          <div class="title">Alarm Monitoring Pipeline</div>
+          <div class="subtitle">Industrial Engineer in Training | Energy Partners – Refrigeration | April 2024 – May 2024</div>
+          <p>
+            Built a scheduled pipeline to collect, store, and visualize alarm data. Enabled proactive issue detection and improved decision-making through automated Power BI reporting.
+          </p>
+          <p><strong>Tools:</strong> Task Scheduler, Python, MySQL, Power BI</p>
+        </li>
+    
+        <li>
+          <div class="title">Maintenance Platform (Web App)</div>
+          <div class="subtitle">Industrial Engineer in Training | Energy Partners – Refrigeration | February 2024 – August 2024</div>
+          <p>
+            Designed and built a full-stack web application for asset tracking and maintenance workflows. This web app is used to tell contractors and technicians what work to do on sites. It also tracks how long they take to do work as well as how long they take to submit paperwork. This ensures that we can keep track of the work that has been done on our assets. I also conducted hands-on training sessions for users across departments to ensure smooth adoption.
+          </p>
+          <p><strong>Tools:</strong> HTML, CSS (Bootstrap), Javascript (jQuery), PHP, MySQL</p>
+        </li>
+        <div class="page-break"></div>
+        <li>
+          <div class="title">Asset Register Creation</div>
+          <div class="subtitle">Industrial Engineer in Training | Energy Partners – Refrigeration | January 2024 – March 2024</div>
+          <p>
+            Initiated and structured an Excel-based asset register as the foundation for the Web App.
+          </p>
+          <p><strong>Tools:</strong> Microsoft Excel</p>
+        </li>
+    
+      </ul>
+    </div>   
+    
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>B.Eng Industrial Engineering</strong> – University of Stellenbosch, 2020-2023</p>
+    </div>
+
+    <div class="section">
+        <h2>Certification</h2>
+        <ul>
+            <li>Microsoft Power BI Desktop for Business Intellegence (2023)</li>
+            <!--<li>Complete Vue Developer Bootcamp (Pinia, Vitest)</li>-->
+            <li>The Complete 2023 PHP Full Stack Web Developer Bootcamp</li>
+            <li>Niagara 4 Technical Certification</li>
+            <li>The Fresh Connection</li>
+          </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Email: ruben.taylor1308@gmail.com</p>
+      <p>Phone: +27 742 0806 81</p>
+      <p>LinkedIn: www.linkedin.com/in/ruben-taylor-572a11238</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Ruben Taylor. All rights reserved.
+  </footer>
+
+</body>
+</html>
